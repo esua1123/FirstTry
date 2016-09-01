@@ -3,7 +3,7 @@ Attempt number 1
 
 import java.awt.*;
 
-public class FourRectanglePrinter 
+public class RectangleMods 
 {
 	public static void main(String[] args)
 	{
@@ -11,6 +11,11 @@ public class FourRectanglePrinter
 		
 		System.out.println(box);
 		
+		moreBoxes(box);
+	}
+	
+	public static void moreBoxes(Rectangle box)
+	{
 		box.translate(8,0);
 		System.out.println(box);
 		
@@ -19,6 +24,5 @@ public class FourRectanglePrinter
 		
 		box.translate(-8,0);
 		System.out.println(box);
-		
 	}
 }
